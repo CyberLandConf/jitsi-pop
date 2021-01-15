@@ -26,7 +26,8 @@
       "matches": [
         "https://meet.jit.si/*",
         "https://8x8.vc/*",
-        "https://jitsi.riot.im/*"
+        "https://jitsi.riot.im/*",
+        "https://meet.frech.info/*"
       ],
       "run_at": "document_start",
       "match_about_blank": true,
@@ -38,7 +39,8 @@
     "matches": [
       "https://jip-hop.github.io/jitsi-pop/*",
       "https://jitsipop.debeer.it/*",
-      "https://jitsipop.tk/*"
+      "https://jitsipop.tk/*",
+      "https://meet.frech.info/*"
     ]
   }
 }

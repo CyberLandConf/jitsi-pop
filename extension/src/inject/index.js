@@ -18,7 +18,7 @@ const database = new Map([
         iframes: Set ["iframe window object"], // each iframe window object in the Set is unique
         windows: Set ["pop-out window object"], // each pop-out window object in the Set is unique
         order: int, // unique, used for sorting, starts at 1
-        mappertjeState: {}, 
+        mappertjeState: {},
       },
     ],
     */
@@ -858,7 +858,7 @@ const connect = () => {
 
   document.getElementById(
     "invite-link"
-  ).value = `https://jitsipop.tk/#/${window.location.hostname}/${options.roomName}`;
+  ).value = `https://${window.location.hostname}/${options.roomName}`;
 
   api.executeCommand("subject", " ");
 

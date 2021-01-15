@@ -77,7 +77,7 @@ link.onclick = (e) => {
   const tmpString = "Copied!";
   navigator.clipboard
     .writeText(
-      `https://jitsipop.tk/#/${servers[background.selectedServerIndex]}/${
+      `https://${servers[background.selectedServerIndex]}/${
         roomnameInput.value
       }`
     )
